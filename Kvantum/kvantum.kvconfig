@@ -1,0 +1,3 @@
+[Applications]
+ArcDark=simplescreenrecorder,qbittorrent,vlc,flameshot
+Default=virtualbox
