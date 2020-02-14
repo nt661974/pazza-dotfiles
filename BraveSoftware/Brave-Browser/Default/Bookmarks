@@ -1,0 +1,68 @@
+{
+   "checksum": "a87d348845ff02250b3abdf2da676afc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13225452796374067",
+            "guid": "14d2bcfd-0596-4e82-b1bf-e7c156f69098",
+            "id": "5",
+            "name": "linux.com - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?sxsrf=ACYBGNQI_WusigbcV5qzcwktIhW4v62yQQ%3A1580979188458&source=hp&ei=9NM7Xt70GaKV4-EPhbSgsAU&q=linux.com&oq=linux.com&gs_l=psy-ab.3..0l5j0i30l5.761.2687..3066...0.0..0.240.1664.0j7j2......0....1..gws-wiz.......0i131j35i39.EFRDQlWBiqQ&ved=0ahUKEwjevrG3xrznAhWiyjgGHQUaCFYQ4dUDCAg&uact=5"
+         }, {
+            "date_added": "13225687174791911",
+            "guid": "2c5f3d2d-93cd-42a8-8214-51a605cedeeb",
+            "id": "7",
+            "name": "Love this colossal shit",
+            "type": "url",
+            "url": "https://duckduckgo.com/?q=chromium+omnibox+cursor+lbink&t=braveed&ia=web"
+         }, {
+            "date_added": "13225701756032992",
+            "guid": "1b5228ac-0a9e-4665-a9bb-9a8abdd43b88",
+            "id": "9",
+            "name": "Victorian Energy Generation - Stile",
+            "type": "url",
+            "url": "https://stileapp.com/au/vbc-887/subject-119335/lesson-924002/worksheet-10148413"
+         }, {
+            "date_added": "13225759804051131",
+            "guid": "7c61320e-c63f-4b23-bd5b-fab2998ff3a9",
+            "id": "11",
+            "name": "cursor blink epilepsy at DuckDuckGo",
+            "type": "url",
+            "url": "https://duckduckgo.com/?q=cursor+blink+epilepsy&t=braveed&ia=web"
+         }, {
+            "date_added": "13226133304802740",
+            "guid": "8d8cb647-d7bb-4c0f-85bc-479ca7b1e1fa",
+            "id": "13",
+            "name": "Login | Compass",
+            "type": "url",
+            "url": "https://viewbank-vic.compass.education/login.aspx?sessionstate=disabled"
+         } ],
+         "date_added": "13225452693346519",
+         "date_modified": "13226133304802740",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13225452693346535",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13225452693346538",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

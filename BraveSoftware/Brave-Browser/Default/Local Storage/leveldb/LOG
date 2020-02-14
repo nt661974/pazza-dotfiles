@@ -1,0 +1,6 @@
+2020/02/14-18:31:38.705 92d3 Reusing MANIFEST /home/paarangat/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/02/14-18:31:38.706 92d3 Recovering log #481
+2020/02/14-18:31:38.706 92d3 Reusing old log /home/paarangat/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000481.log 
+2020/02/14-18:32:40.308 93c1 Level-0 table #486: started
+2020/02/14-18:32:40.373 93c1 Level-0 table #486: 328557 bytes OK
+2020/02/14-18:32:40.384 93c1 Delete type=0 #481

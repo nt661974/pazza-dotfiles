@@ -2,9 +2,6 @@
 text/plain=sublime_text_3.desktop;
 application/xml=atom.desktop;sublime_text_3.desktop;
 application/x-shellscript=atom.desktop;sublime_text_3.desktop;
-x-scheme-handler/http=exo-web-browser.desktop
-x-scheme-handler/https=exo-web-browser.desktop
-x-scheme-handler/mailto=exo-mail-reader.desktop
 x-scheme-handler/trash=exo-file-manager.desktop
 inode/directory=exo-file-manager.desktop;
 text/x-matlab=atom.desktop;sublime_text_3.desktop;
@@ -82,6 +79,8 @@ application/sql=atom.desktop;sublime_text_3.desktop;
 application/vnd.kde.kxmlguirc=atom.desktop;sublime_text_3.desktop;
 audio/mp4=pragha.desktop;
 text/x-chdr=atom.desktop;
+x-scheme-handler/http=exo-web-browser.desktop;
+x-scheme-handler/https=exo-web-browser.desktop;
 
 [Default Applications]
 x-scheme-handler/http=vivaldi-stable.desktop
@@ -106,3 +105,4 @@ audio/mp4=pragha.desktop
 application/pdf=org.gnome.Evince.desktop
 text/x-chdr=atom.desktop
 text/x-lua=geany.desktop
+

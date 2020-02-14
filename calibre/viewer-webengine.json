@@ -1,0 +1,34 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAJ+AAAAkgAABQEAAAN/AAACgAAAAK4AAAT/AAADfQAAAAAAAAAAB4AAAAKAAAAArgAABP8AAAN9"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJIA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAApgD///8AAAABAAAAAAAAAAD8AgAAAAP7AAAAHABiAG8AbwBrAG0AYQByAGsAcwAtAGQAbwBjAGsAAAAAAP////8AAADmAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAA/////wAAAHIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAGAD///8AAAKAAAAC0AAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgIAAAAA/////wAAAAAAAAAA"
+  }, 
+  "old_prefs_migrated": true, 
+  "session_data": {
+    "controls_help_shown_count": 2, 
+    "current_color_scheme": "system", 
+    "read_mode": "flow", 
+    "standalone_font_settings": {}, 
+    "standalone_misc_settings": {
+      "remember_last_read": true, 
+      "remember_window_geometry": false, 
+      "save_annotations_in_ebook": true, 
+      "singleinstance": false
+    }, 
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "John Schember"
+        ], 
+        "key": "/home/paarangat/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
+        "pathtoebook": "/home/paarangat/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
+        "timestamp": "2020-02-12T21:15:49.844Z", 
+        "title": "Quick Start Guide"
+      }
+    ]
+  }
+}

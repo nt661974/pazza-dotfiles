@@ -1,0 +1,17 @@
+2020/02/14-18:03:25.612 7d1d Reusing MANIFEST /home/paarangat/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/02/14-18:03:25.613 7d1d Recovering log #476
+2020/02/14-18:03:25.618 7d1d Level-0 table #479: started
+2020/02/14-18:03:25.857 7d1d Level-0 table #479: 64274 bytes OK
+2020/02/14-18:03:26.272 7d1d Delete type=0 #476
+2020/02/14-18:23:16.589 9067 Level-0 table #482: started
+2020/02/14-18:23:16.612 9067 Level-0 table #482: 324723 bytes OK
+2020/02/14-18:23:16.617 9067 Delete type=0 #480
+2020/02/14-18:23:16.618 9067 Compacting 4@0 + 1@1 files
+2020/02/14-18:23:16.655 9067 Generated table #483@0: 182 keys, 446921 bytes
+2020/02/14-18:23:16.655 9067 Compacted 4@0 + 1@1 files => 446921 bytes
+2020/02/14-18:23:16.657 9067 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/14-18:23:16.657 9067 Delete type=2 #477
+2020/02/14-18:23:16.657 9067 Delete type=2 #471
+2020/02/14-18:23:16.657 9067 Delete type=2 #474
+2020/02/14-18:23:16.657 9067 Delete type=2 #479
+2020/02/14-18:23:16.657 9067 Delete type=2 #482

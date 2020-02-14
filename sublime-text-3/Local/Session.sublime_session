@@ -20,11 +20,20 @@
 			"buffers":
 			[
 				{
-					"file": "/home/paarangatj/Downloads/OFL.txt",
+					"contents": "love linux",
 					"settings":
 					{
-						"buffer_size": 4443,
-						"line_ending": "Windows"
+						"buffer_size": 10,
+						"line_ending": "Unix",
+						"name": "love linux"
+					}
+				},
+				{
+					"file": "/home/paarangat/Downloads/random.txt",
+					"settings":
+					{
+						"buffer_size": 483,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -60,6 +69,8 @@
 			},
 			"file_history":
 			[
+				"/usr/bin/menulibre-2",
+				"/home/paarangatj/Downloads/OFL.txt",
 				"/home/paarangatj/Downloads/README.md",
 				"/home/paarangatj/.config/awesome/awesome-wm-widgets/README.md"
 			],
@@ -96,24 +107,52 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/paarangatj/Downloads/OFL.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4443,
+								"buffer_size": 10,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										10,
+										10
+									]
+								],
+								"settings":
+								{
+									"auto_name": "love linux",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/paarangat/Downloads/random.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 483,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										483,
+										483
 									]
 								],
 								"settings":
@@ -166,7 +205,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,840,28,1680,1015,1680,1050",
+			"position": "0,1,0,0,0,0,0,1920,1015,3286,1080",
 			"project": "",
 			"replace":
 			{

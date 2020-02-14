@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest>
+		<!-- Package description -->
+        <manifest:file-entry manifest:media-type="application/vnd.sun.star.package-bundle-description"
+                manifest:full-path="package-description.txt"/>
+
+        <!-- Application laucher -->
+        <manifest:file-entry manifest:media-type="application/vnd.sun.star.uno-component;type=Python"
+                manifest:full-path="Launcher.py"/>
+		
+        <!-- common -->
+        <manifest:file-entry manifest:media-type="application/vnd.sun.star.configuration-data"
+                manifest:full-path="addons.xcu"/>
+</manifest:manifest>

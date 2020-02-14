@@ -21,14 +21,14 @@ theme.wallpaper                                 = theme.dir .. "/wallpaper.jpg"
 theme.font                                      = "Noto Sans Regular 13"
 theme.taglist_font                              = "Noto Sans Regular 14"
 theme.fg_normal                                 = "#FEFEFE"
-theme.fg_focus                                  = "#889FA7"
+theme.fg_focus                                  = "#850d27"
 theme.fg_urgent                                 = "#b74822"
 theme.bg_normal                                 = "#000000"
 theme.bg_focus                                  = "#1E2320"
 theme.bg_urgent                                 = "#3F3F3F"
 theme.taglist_fg_focus                          = "#C70005"
 theme.tasklist_bg_focus                         = "#000000"
-theme.tasklist_fg_focus                         = "#889FA7"
+theme.tasklist_fg_focus                         = "#8300C7"
 theme.border_width                              = dpi(0)
 theme.border_normal                             = "#3F3F3F"
 theme.border_focus                              = "#6F6F6F"
@@ -240,7 +240,7 @@ Copy/paste the city code in the URL to this file in city_id
 --]]
 local weathericon = wibox.widget.imagebox(theme.widget_weather)
 theme.weather = lain.widget.weather({
-    city_id =2158177, -- placeholder (Melbourne, AU)
+    city_id =7839527, -- placeholder (Melbourne, AU)
     notification_preset = { font = "Noto Sans Mono Medium 10", fg = theme.fg_normal },
     weather_na_markup = markup.fontfg(theme.font, "#ffffff", "N/A "),
     settings = function()
@@ -392,21 +392,17 @@ function theme.at_screen_connect(s)
             volumearc_widget,
             arrow("alpha", "#497B96"),
             wibox.container.background(wibox.container.margin(wibox.widget { mpdicon, theme.mpd.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(6)), "#497B96"),
-            arrow("#497B96", "#889FA7"),
-            wibox.container.background(wibox.container.margin(wibox.widget { volicon, theme.volume.widget, layout = wibox.layout.align.horizontal }, dpi(2), dpi(3)), "#889FA7"),
-            arrow("#889FA7", "#497B96"),
+            arrow("#497B96", "#800950"),
+            wibox.container.background(wibox.container.margin(wibox.widget { volicon, theme.volume.widget, layout = wibox.layout.align.horizontal }, dpi(2), dpi(3)), "#850d27"),
+            arrow("#800950", "#497B96"),
             wibox.container.background(wibox.container.margin(wibox.widget { memicon, mem.widget, layout = wibox.layout.align.horizontal }, dpi(2), dpi(3)), "#497B96"),
-            arrow("#497B96", "#889FA7"),
-            wibox.container.background(wibox.container.margin(wibox.widget { cpuicon, cpu.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(4)), "#889FA7"),
-            arrow("#889FA7", "#497B96"),
+            arrow("#497B96", "#800950"),
+            wibox.container.background(wibox.container.margin(wibox.widget { cpuicon, cpu.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(4)), "#850d27"),
+            arrow("#800950", "#497B96"),
             wibox.container.background(wibox.container.margin(wibox.widget { tempicon, temp.widget, layout = wibox.layout.align.horizontal }, dpi(4), dpi(4)), "#497B96"),
-            arrow("#497B96", "#889FA7"),
-            wibox.container.background(wibox.container.margin(wibox.widget { weathericon, theme.weather.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(3)), "#889FA7"),
-            arrow("#889FA7", "#497B96"),
-            wibox.container.background(wibox.container.margin(wibox.widget { baticon, bat.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(3)), "#497B96"),
-            arrow("#497B96", "#889FA7"),
-            wibox.container.background(wibox.container.margin(wibox.widget { nil, neticon, net.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(3)), "#889FA7"),
-            arrow("#889FA7", "#497B96"),
+            arrow("#497B96", "#800950"),
+            wibox.container.background(wibox.container.margin(wibox.widget { weathericon, theme.weather.widget, layout = wibox.layout.align.horizontal }, dpi(3), dpi(3)), "#850d27"),
+            arrow("#800950", "#497B96"),
             wibox.container.background(wibox.container.margin(clock, dpi(4), dpi(8)), "#497B96"),
             arrow("#497B96", "alpha"),
             --]]
@@ -414,21 +410,6 @@ function theme.at_screen_connect(s)
         },
     }
     
-     -- Create the bottom wibox
-     s.mybottomwibox = awful.wibar({ position = "bottom", screen = s, border_width = 0, height = dpi(35), bg = theme.bg_normal, fg = theme.fg_normal })
-
-     -- Add widgets to the bottom wibox
-     s.mybottomwibox:setup {
-         layout = wibox.layout.align.horizontal,
-         { -- Left widgets
-             layout = wibox.layout.fixed.horizontal,
-         },
-         s.mytasklist, -- Middle widget
-         { -- Right widgets
-             layout = wibox.layout.fixed.horizontal,
-             s.mylayoutbox,
-         },
-     }
  end
 
 return theme

@@ -1,0 +1,4 @@
+Select paragraphs and click on Scribens -> Check	
+
+A powerful, free spelling and grammar checker.	
+Scribens corrects over 250 types of grammar mistakes and detects repetitions, run-on sentences, redundancies, etc.

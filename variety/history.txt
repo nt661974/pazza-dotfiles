@@ -1,12 +1,81 @@
 0
-/home/paarangatj/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171137_earth-170_high_resolution.jpg
-/home/paarangatj/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162816_earth-005_high_resolution.jpg
-/home/paarangatj/.config/variety/Downloaded/Earth View/Dalian Shi, China (ID-5628).jpg
-/home/paarangatj/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-211544_image (26)_high_resolution.jpg
-/home/paarangatj/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
-/home/paarangatj/.config/variety/Downloaded/Earth View/Ancona, Italy (ID-1872).jpg
-/home/paarangatj/.config/variety/Downloaded/Earth View/Moudjeria, Mauritania (ID-6503).jpg
-/home/paarangatj/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Dashoguz Province, Turkmenistan (ID-6048).jpg
+/home/paarangat/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Farina, Australia (ID-5859).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Dalian Shi, China (ID-5628).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165023_earth-018_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-211544_image (26)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212823_image (23)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-174522_earth-056_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171232_earth-171_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Saint John, United States (ID-5179).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165933_earth-046_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-215900_image (2)33_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Naples, United States (ID-1970).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Beas, Spain (ID-1608).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162816_earth-005_high_resolution.jpg
+/home/paarangat/.config/variety/Favorites/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212438_image (18)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Rostock, Germany (ID-5870).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212438_image (18)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Moudjeria, Mauritania (ID-6503).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20120716-212804_1-nature0_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Dashoguz Province, Turkmenistan (ID-6048).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Farina, Australia (ID-5859).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Enewetak Atoll, Marshall Islands (ID-6144).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Corpen Aike Department, Argentina (ID-1594).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Weifang Shi, China (ID-5641).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-174522_earth-056_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165933_earth-046_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Naples, United States (ID-1970).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130514-012149_trey-ratcliff-long-blue-road_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165253_earth-032_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130514-012149_trey-ratcliff-long-blue-road_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Rostock, Germany (ID-5870).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171232_earth-171_high_resolution.jpg
+/home/paarangat/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165023_earth-018_high_resolution.jpg
+/home/paarangat/.config/variety/Favorites/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162816_earth-005_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Al Wahat, Libya (ID-6262).jpg
+/home/paarangat/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Naples, United States (ID-1970).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212823_image (23)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Al Wahat, Libya (ID-6262).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171137_earth-170_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Corpen Aike Department, Argentina (ID-1594).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Dalian Shi, China (ID-5628).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165933_earth-046_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Saint John, United States (ID-5179).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212438_image (18)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Weifang Shi, China (ID-5641).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Dashoguz Province, Turkmenistan (ID-6048).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130507-163911_Cherry-blossoms_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Moudjeria, Mauritania (ID-6503).jpg
+/home/paarangat/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212438_image (18)_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Naples, United States (ID-1970).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165023_earth-018_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171232_earth-171_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Corpen Aike Department, Argentina (ID-1594).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140528-171137_earth-170_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162816_earth-005_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-174522_earth-056_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Farina, Australia (ID-5859).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-215900_image (2)33_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Enewetak Atoll, Marshall Islands (ID-6144).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20130206-212823_image (23)_high_resolution.jpg
+/home/paarangat/.config/variety/Favorites/soulsequencer-carbon-orange-3840x2160-4k.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Ancona, Italy (ID-1872).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162816_earth-005_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Naples, United States (ID-1970).jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Corpen Aike Department, Argentina (ID-1594).jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165253_earth-032_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-165933_earth-046_high_resolution.jpg
+/home/paarangat/.config/variety/Downloaded/Earth View/Corpen Aike Department, Argentina (ID-1594).jpg
 /usr/share/backgrounds/arcolinux/cluster-legacy-mono-slate-2560x1440-HD.jpg
 /usr/share/backgrounds/arcolinux/yosemite-sunset-3840x2160.jpg
 /usr/share/backgrounds/arcolinux/abstract-cool-ordered-mind-2048x1197.png

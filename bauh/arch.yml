@@ -1,0 +1,3 @@
+optimize: true
+sync_databases: true
+transitive_checking: true

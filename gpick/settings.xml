@@ -2,7 +2,7 @@
 <gpick type="dynv">
 <generate_scheme type="dynv">
 <hsv_shift type="float" list="true"><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></hsv_shift>
-<hue type="float">358.472</hue>
+<hue type="float">99.5543</hue>
 <lightness type="float">-11</lightness>
 <saturation type="float">100</saturation>
 <type type="int32">0</type>
@@ -39,8 +39,8 @@
 <window type="dynv">
 <height type="int32">451</height>
 <width type="int32">519</width>
-<x type="int32">580</x>
-<y type="int32">299</y>
+<x type="int32">0</x>
+<y type="int32">28</y>
 </window>
 </main>
 <picker type="dynv">

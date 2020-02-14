@@ -118,12 +118,12 @@ local filemanager       = "thunar"
 local mailclient        = "evolution"
 local mediaplayer       = "spotify"
 local scrlocker         = "slimlock"
-local terminal          = "terminator"
+local terminal          = "termite"
 local virtualmachine    = "virtualbox"
 
 -- awesome variables
 awful.util.terminal = terminal
-awful.util.tagnames = {  "➊", "➋", "➌", "➍", "➎", "➏", "➐", "➑", "➒", "➓" }
+awful.util.tagnames = {  "➊", "➋", "➌", "➍", "➎", "➏" }
 --awful.util.tagnames = { "⠐", "⠡", "⠲", "⠵", "⠻", "⠿" }
 --awful.util.tagnames = { "⌘", "♐", "⌥", "ℵ" }
 --awful.util.tagnames = { "www", "edit", "gimp", "inkscape", "music" }
@@ -301,6 +301,8 @@ globalkeys = my_table.join(
     -- {{{ Personal keybindings
     awful.key({ modkey }, "w", function () awful.util.spawn( browser1 ) end,
         {description = browser1, group = "function keys"}),
+    awful.key({ modkey, "Shift" }, "p", function () awful.util.spawn( "pycharm" ) end,
+          {description = browser1, group = "function keys"}),
     -- dmenu
     awful.key({ modkey, "Shift"   }, "d",
     function ()
@@ -325,7 +327,7 @@ globalkeys = my_table.join(
         {description = "gimp" , group = "function keys" }),
     awful.key({ modkey }, "F5", function () awful.util.spawn( "meld" ) end,
         {description = "meld" , group = "function keys" }),
-    awful.key({ modkey }, "F6", function () awful.util.spawn( "vlc --video-on-top" ) end,
+    awful.key({ modkey }, "F6", function () awful.util.spawn( "vlc" ) end,
         {description = "vlc" , group = "function keys" }),
     awful.key({ modkey }, "F7", function () awful.util.spawn( "virtualbox" ) end,
         {description = virtualmachine , group = "function keys" }),
@@ -335,9 +337,9 @@ globalkeys = my_table.join(
         {description = mailclient , group = "function keys" }),
     awful.key({ modkey }, "F10", function () awful.util.spawn( mediaplayer ) end,
         {description = mediaplayer , group = "function keys" }),
-    awful.key({ modkey }, "F11", function () awful.util.spawn( "rofi -show run -fullscreen" ) end,
+    awful.key({ modkey }, "F11", function () awful.util.spawn( "rofi -show run --fullscreen -theme-str 'entry {blink:false;}'") end,
         {description = "rofi fullscreen" , group = "function keys" }),
-    awful.key({ modkey }, "F12", function () awful.util.spawn( "rofi -show run" ) end,
+    awful.key({ modkey }, "F12", function () awful.util.spawn( "rofi -show run -theme-str 'entry {blink:false;}'" ) end,
         {description = "rofi" , group = "function keys" }),
 
     -- super + ...
@@ -636,7 +638,7 @@ globalkeys = my_table.join(
               {description = "select next", group = "layout"}),
     --awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                end,
              -- {description = "select previous", group = "layout"}),
-
+    
     awful.key({ modkey, "Control" }, "n",
               function ()
                   local c = awful.client.restore()
@@ -919,14 +921,14 @@ awful.rules.rules = {
 
     -- Set applications to always map on the tag 1 on screen 1.
     -- find class or role via xprop command
-    --{ rule = { class = browser2 },
-      --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true  } },
+    { rule = { class = browser2 },
+      properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = false  } },
 
-    --{ rule = { class = browser1 },
-      --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true  } },
+    { rule = { class = browser1 },
+      properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = false  } },
 
-    --{ rule = { class = "Vivaldi-stable" },
-        --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true } },
+    { rule = { class = "browser 1" },
+        properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = false } },
 
     --{ rule = { class = "Chromium" },
       --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true  } },
@@ -941,8 +943,8 @@ awful.rules.rules = {
     --{ rule = { class = editorgui },
         --properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = true  } },
 
-    --{ rule = { class = "Brackets" },
-        --properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = true  } },
+    { rule = { class = "Spotify" },
+        properties = { switchtotag = false  } },
 
     --{ rule = { class = "Code" },
         --properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = true  } },
@@ -952,8 +954,8 @@ awful.rules.rules = {
 
 
     -- Set applications to always map on the tag 3 on screen 1.
-    --{ rule = { class = "Inkscape" },
-        --properties = { screen = 1, tag = awful.util.tagnames[3], switchtotag = true  } },
+    { rule = { class = "pycharm" },
+        properties = { screen = 1, tag = awful.util.tagnames[3], switchtotag = false  } },
 
     -- Set applications to always map on the tag 4 on screen 1.
     --{ rule = { class = "Gimp" },
@@ -971,7 +973,7 @@ awful.rules.rules = {
           properties = { maximized = true } },
 
     { rule = { class = "Geany" },
-          properties = { maximized = false, floating = false } },
+          properties = { maximized = false, x = 325, y = 125 } },
 
     { rule = { class = "Gimp*", role = "gimp-image-window" },
           properties = { maximized = true } },
@@ -979,11 +981,17 @@ awful.rules.rules = {
     { rule = { class = "Gnome-disks" },
           properties = { maximized = true } },
 
+    { rule = { class = "Firefox-developer-edition" },
+            properties = { maximized = true } },
+  
     { rule = { class = "inkscape" },
           properties = { maximized = true } },
 
     { rule = { class = mediaplayer },
           properties = { maximized = true } },
+     
+    { rule = { class = "Pavucontrol" },
+          properties = { maximized = true} },
 
     { rule = { class = "Vlc" },
           properties = { maximized = true } },
@@ -991,7 +999,7 @@ awful.rules.rules = {
     { rule = { class = "VirtualBox Manager" },
           properties = { maximized = true } },
 
-    { rule = { class = "VirtualBox Machine" },
+    { rule = { class = "gpick" },
           properties = { maximized = true } },
 
     { rule = { class = "Vivaldi-stable" },
@@ -1010,7 +1018,8 @@ awful.rules.rules = {
     { rule = { class = "Xfce4-settings-manager" },
           properties = { floating = false } },
 
-
+  { rule = { class = "Pycharm-community-edition" },
+           properties = { maximized = true }, {x = 50}, {y = 50} },
 
 
 
@@ -1029,9 +1038,12 @@ awful.rules.rules = {
           "Gpick",
           "Imagewriter",
           "Font-manager",
+          "Nm-connection-editor",
+          "Geany",
           "Kruler",
           "MessageWin",  -- kalarm.
           "Oblogout",
+          "Pavucontrol",
           "Peek",
           "Skype",
           "System-config-printer.py",
@@ -1051,7 +1063,7 @@ awful.rules.rules = {
           "Preferences",
           "setup",
         }
-      }, properties = { floating = true }},
+      }, properties = { floating = true }, { align = centre }},
 
 }
 -- }}}

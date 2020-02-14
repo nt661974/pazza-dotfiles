@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data
+      xmlns:oor="http://openoffice.org/2001/registry"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      oor:package="org.openoffice.Office"
+      oor:name="Addons">
+  <node oor:name="AddonUI">
+  
+    <node oor:name="OfficeMenuBar">
+        <node oor:name="Scribens" oor:op="replace">
+            <prop oor:name="Title" oor:type="xs:string">
+                <value/>
+                <value xml:lang="en">Scribens</value>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+                <value>_self</value>
+            </prop>
+            <node oor:name="Submenu">
+                <node oor:name="m1" oor:op="replace">
+                    <prop oor:name="URL" oor:type="xs:string">
+                        <value>service:scribens.Launcher?EN</value>
+                    </prop>
+                    <prop oor:name="Title" oor:type="xs:string">
+                        <value/>
+                        <value xml:lang="en">English - Check the selected paragraphs</value>
+                    </prop>d
+                    <prop oor:name="Context" oor:type="xs:string">
+                        <value>com.sun.star.text.TextDocument,com.sun.star.text.GlobalDocument,com.sun.star.text.WebDocument</value>
+                    </prop>
+                </node>
+				<node oor:name="m2" oor:op="replace">
+                    <prop oor:name="URL" oor:type="xs:string">
+                        <value>service:scribens.Launcher?FR</value>
+                    </prop>
+                    <prop oor:name="Title" oor:type="xs:string">
+                        <value/>
+                        <value xml:lang="en">Fran&#231;ais - Corriger les paragraphes s&#233;lectionn&#233;s</value>
+                    </prop>d
+                    <prop oor:name="Context" oor:type="xs:string">
+                        <value>com.sun.star.text.TextDocument,com.sun.star.text.GlobalDocument,com.sun.star.text.WebDocument</value>
+                    </prop>
+                </node>
+            </node>
+        </node>
+    </node>
+	
+  </node>
+</oor:component-data>

@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "contentScript.js", "utils.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "A powerful, free spelling and grammar checker. Scribens corrects 250 types of grammar mistakes. English and French.",
+   "homepage_url": "http://www.scribens.com",
+   "icons": {
+      "128": "Images/icon_128.png",
+      "16": "Images/icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAltKmjxiWegFWdN50zAoX96PGltOJ5K1W+QvWeNMUFWNvyg+yfIqS+OM3evd3URWrvOo31fXmS7uOM6O+rI2FZUOYG96wasrZU+DXO4OJlKHLflhD2x4MRqsIBOfV7JLz/8GliWjruHr2qgqkuF1m2dnPmJgRXxVz/3bkEyN/UrmJ8cYM5+d7kB53BuZhMlOlfp1IzVMMezO54XizE8FbOArRwwV+n8SgfCqPeGNvjcNXYOWSgQpC8LuqLpaJ6iWLvs4z7LeMkDkgg27y9rgSo/j7e8q0P/nnXBB7Z4U/qwtd4D9o6jF3G7/236BxaBqVSgf4K325k25J+O3sxqoQeQIDAQAB",
+   "manifest_version": 2,
+   "name": "Spell checker and Grammar checker by Scribens",
+   "permissions": [ "contextMenus", "tabs", "debugger", "http://*/", "https://*/*", "webNavigation", "storage", "nativeMessaging", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.7"
+}

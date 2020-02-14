@@ -1,1 +1,1 @@
-conky -c ~/.config/conky/AUR-ArcoLinux.conkyrc
+conky -c /home/paarangat/.config/conky/AUR-Concise-Inf-Blue.conkyrc & sleep 1s

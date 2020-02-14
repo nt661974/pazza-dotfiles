@@ -1,0 +1,20 @@
+[2020-02-09 12:31:45.364] [sharedprocess] [info] main {"machineId":"bea1cd2fc43af6fc337753b7e391b6b6a348f6654648bc20742815c05bd88a30","windowId":2}
+[2020-02-09 12:31:58.643] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-02-09 12:32:01.985] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2020-02-09 12:32:02.709] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/0c3ff8f1-342e-4f3f-bb76-086529a3be73
+[2020-02-09 12:32:02.928] [sharedprocess] [info] Extracted extension to /home/paarangat/.vscode/extensions/.dbaeumer.vscode-eslint-2.0.15: dbaeumer.vscode-eslint
+[2020-02-09 12:32:02.960] [sharedprocess] [info] Renamed to /home/paarangat/.vscode/extensions/dbaeumer.vscode-eslint-2.0.15
+[2020-02-09 12:32:02.991] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2020-02-09 12:32:03.010] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2020-02-09 12:32:05.976] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2020-02-09 12:32:07.300] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /tmp/164c7457-632b-402d-81d9-3ad2e425fd3a
+[2020-02-09 12:32:08.066] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/2d8d85be-4eeb-4788-a781-5cd53ac90e34
+[2020-02-09 12:32:09.535] [sharedprocess] [info] Extracted extension to /home/paarangat/.vscode/extensions/.ms-azuretools.vscode-docker-0.10.0: ms-azuretools.vscode-docker
+[2020-02-09 12:32:09.536] [sharedprocess] [info] Renamed to /home/paarangat/.vscode/extensions/ms-azuretools.vscode-docker-0.10.0
+[2020-02-09 12:32:09.545] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2020-02-09 12:32:09.688] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2020-02-09 12:32:25.325] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-02-09 12:32:26.108] [sharedprocess] [info] Extracted extension to /home/paarangat/.vscode/extensions/.ms-python.python-2020.1.58038: ms-python.python
+[2020-02-09 12:32:26.109] [sharedprocess] [info] Renamed to /home/paarangat/.vscode/extensions/ms-python.python-2020.1.58038
+[2020-02-09 12:32:26.125] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-02-09 12:32:26.157] [sharedprocess] [info] Extensions installed successfully: ms-python.python

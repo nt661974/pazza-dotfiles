@@ -1,5 +1,5 @@
 FileManager=Thunar
 TerminalEmulator=custom-TerminalEmulator
-WebBrowser=vivaldi
+WebBrowser=custom-WebBrowser
 MailReader=evolution
 

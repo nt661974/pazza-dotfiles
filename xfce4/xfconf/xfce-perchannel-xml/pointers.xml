@@ -10,4 +10,9 @@
       <property name="libinput_Tapping_Enabled" type="int" value="1"/>
     </property>
   </property>
+  <property name="SYNA2B3800_06CB7FB5_Mouse" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="7.400000"/>
+  </property>
 </channel>
